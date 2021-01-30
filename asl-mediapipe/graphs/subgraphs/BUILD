@@ -47,7 +47,7 @@ mediapipe_simple_subgraph(
         "@mediapipe//mediapipe/calculators/util:landmarks_to_render_data_calculator",
         "@mediapipe//mediapipe/calculators/util:rect_transformation_calculator",
         "@mediapipe//mediapipe/calculators/util:thresholding_calculator",
-        "//asl-mediapipe/graphs/calculators:hand_landmarks_to_rect_calculator",
+        "//asl-mediapipe/calculators:hand_landmarks_to_rect_calculator",
     ],
 )
 
