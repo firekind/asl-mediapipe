@@ -1,5 +1,5 @@
 load(
-    "@mediapipe/framework/tool:mediapipe_graph.bzl",
+    "@mediapipe//mediapipe/framework/tool:mediapipe_graph.bzl",
     "mediapipe_simple_subgraph",
 )
 

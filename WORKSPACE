@@ -41,7 +41,6 @@ http_archive(
     name = "rules_cc",
     strip_prefix = "rules_cc-master",
     urls = ["https://github.com/bazelbuild/rules_cc/archive/master.zip"],
-    sha256 = "7d52a9cfae82a7595a2d11c2242b37e1d349b1ed1c3c9719e1000dec367750c1"
 )
 
 http_archive(
@@ -395,5 +394,4 @@ git_repository(
     name="mediapipe",
     remote="https://github.com/google/mediapipe",
     commit="cccf6244d3fc4afc53082a397e764a8560eec96e",
-    shallow_since = "1601270525 -0400"
 )
