@@ -3,14 +3,14 @@ load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
 cc_binary(
     name = "hand_tracking_cpu",
     deps = [
-        ":demo_run_graph_main",
+        ":main",
         "//asl-mediapipe/graphs:desktop_tflite_calculators",
     ],
 )
 
 cc_library(
-    name = "demo_run_graph_main",
-    srcs = ["demo_run_graph_main.cc"],
+    name = "main",
+    srcs = ["main.cc"],
     deps = [
         "@mediapipe//mediapipe/framework:calculator_framework",
         "@mediapipe//mediapipe/framework/formats:image_frame",
